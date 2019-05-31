@@ -6,18 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game </title>
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <h1>Guess what letter I'm thinking of:</h1>
-    <p>Wins: <span id="wins"></span></p>
-    <p>Losses: <span id="losses"></span></p>
-    <p>Guesses Remaining: <span id="guessesRemaining"></span></p>
-    <p>Guesses: <span id="guesses"></span></p>
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="assets/images/wyron-a-561710-unsplash.jpg" class="img-fluid img-thumbnail"
+                    alt="Responsive image">
+            </div>
+            <div class="col-md-7">
+                <!-- <h3>Guess what letter I'm thinking of:</h3>
+                        <p>Wins: <span id="wins"></span></p>
+                        <p>Losses: <span id="losses"></span></p>
+                        <p>Guesses Remaining: <span id="guessesRemaining"></span></p>
+                        <p>Guesses: <span id="guesses"></span></p> -->
+
+                <div class="card" style="width: 100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Guess what letter I'm thinking of:</h5>
+                        <p class="card-text">Wins: <span id="wins"></span></p>
+                        <p class="card-text">Losses: <span id="losses"></span></p>
+                        <p class="card-text">Guesses Remaining: <span id="guessesRemaining"></span></p>
+                        <p class="card-text">Guesses: <span id="guesses"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-          
+
+
     <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>
 
